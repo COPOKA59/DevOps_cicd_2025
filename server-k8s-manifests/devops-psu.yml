@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: devops-psu-server
-        image: COPOKA59/devops-psu:latest
+        image: copoka59/devops-psu:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8000
